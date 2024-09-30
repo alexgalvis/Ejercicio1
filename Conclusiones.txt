@@ -1,0 +1,16 @@
+#Conclusiones
+
+1. Flujo E2E completado exitosamente: El flujo de compra desde la autenticación hasta la confirmación
+   de la orden fue completado de acuerdo al objetivo del ejercicio sin presentar errores.
+2. Cobertura de validaciones: Si bien el flujo principal fue automatizado con éxito, el escenario no cubre
+   ciertas validaciones adicionales que podrían ser importantes para asegurar el correcto funcionamiento
+   del flujo completo. Por ejemplo, sería recomendable validar:
+
+   - El número de items en el carrito después de añadir los productos
+   - El precio individual de los productos
+   - La sumatoria total del carrito antes de finalizar la compra
+
+3. Facilidad de implementación de mejoras: La herramienta utilizada, Serenity BDD con el patrón Screenplay,
+   proporciona una gran flexibilidad para añadir estas validaciones adicionales sin realizar cambios
+   significativos en la estructura del código. Esto se debe a la reutilización de tasks
+   y questions ya implementados, lo que facilita la extensión del escenario de prueba de manera eficiente.
