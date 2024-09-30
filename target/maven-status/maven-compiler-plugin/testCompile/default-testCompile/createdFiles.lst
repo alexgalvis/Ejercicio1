@@ -1,0 +1,17 @@
+com\saucedemo\screenplay\utils\StoreHomePage.class
+com\saucedemo\screenplay\tasks\DoLogin.class
+com\saucedemo\screenplay\questions\IsOrderConfirmed.class
+com\saucedemo\screenplay\interactions\SelectProduct.class
+com\saucedemo\screenplay\ui\CheckoutPage.class
+com\saucedemo\screenplay\ui\LoginForm.class
+com\saucedemo\screenplay\tasks\AddProductsToCard.class
+com\saucedemo\CucumberTestSuite.class
+com\saucedemo\screenplay\tasks\NavigateTo.class
+com\saucedemo\screenplay\tasks\ProceedToCheckout.class
+com\saucedemo\screenplay\ui\CartPage.class
+com\saucedemo\screenplay\tasks\CompletePurchase.class
+com\saucedemo\screenplay\ui\OrderConfirmationPage.class
+com\saucedemo\screenplay\interactions\GoToShoppingCard.class
+com\saucedemo\stepdefinitions\BuyProductsDefinitions.class
+com\saucedemo\screenplay\ui\homePage\HomePage.class
+com\saucedemo\screenplay\ui\homePage\ProductItem.class
